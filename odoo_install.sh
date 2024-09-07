@@ -26,7 +26,7 @@ OE_PORT="8069"
 # IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 16.0
 OE_VERSION="17.0"
 # Set this to True if you want to install the Odoo enterprise version!
-IS_ENTERPRISE="False"
+IS_ENTERPRISE="True"
 # Installs postgreSQL V14 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
 INSTALL_POSTGRESQL_FOURTEEN="True"
 # Set this to True if you want to install Nginx!
